@@ -1,0 +1,12 @@
+{
+    "url": "https://www.upwork.com/jobs/Build-Lightweight-Student-Discounts-Website_~021979843678704877429/?referrer_url_path=/nx/search/jobs/",
+    "專案名稱": "Build a Lightweight Student-Discounts Website",
+    "專案描述": "We need a tiny, fast website that lists verified student discounts (coupons/codes/links) in and around Zürich. It must be mobile-first, static-first, and fee-free: we will supply a single JSON file and we want to be able to edit the json directly on the website for content updates. Deploy on Vercel’s free tier. We have a Figma screenshot as a visual reference for layout & style. Please look at the attached file for the full project description.",
+    "地點": "Location\nSwitzerland",
+    "額外資訊": "Fixed price\nIntermediate\nEst. budget:\n$100.00",
+    "類別": "JavaScript",
+    "ai_initail_anylizer": {
+        "ai_position_title": "AI 客戶需求解析師",
+        "response": "```markdown\n### 需求摘要\n客戶需要一個輕量、快速、行動優先的靜態網站，用於展示蘇黎世地區的學生折扣資訊。網站內容需從一個 JSON 檔案動態載入，且客戶希望能直接在網站上編輯並更新此 JSON 檔案。最終成品需部署在 Vercel 的免費方案上。\n\n### 初步功能點\n*   **折扣列表頁面**: 根據提供的 JSON 檔案，動態渲染所有學生折扣項目，包含優惠券代碼、連結、描述等資訊。\n*   **響應式與行動優先設計**: 依據 Figma 設計稿，實現網頁版面與樣式，並確保在手機、平板、桌面裝置上皆有良好瀏覽體驗。\n*   **內容管理機制 (核心功能)**: 提供一個讓客戶能直接更新 JSON 內容的介面。考量到零營運成本，建議方案為引導客戶至 GitHub 存放庫直接編輯 JSON 檔案，並利用 Vercel 的自動部署功能即時更新網站。\n*   **客戶端篩選/搜尋功能**: (建議功能) 在前端實現一個簡易的搜尋框或分類篩選器，讓使用者可以快速找到想要的折扣資訊。\n*   **Vercel 自動化部署**: 設定專案與 GitHub 存放庫連結，實現推送 (push) 更新後 Vercel 自動化建置與部署。\n\n### 技術關鍵詞\n*   **語言**: JavaScript\n*   **前端框架/函式庫**: Vanilla JS, React (Next.js), Svelte (SvelteKit), Astro\n*   **樣式**: CSS, Tailwind CSS\n*   **資料處理**: JSON, `fetch` API\n*   **部署與版本控制**: Git, GitHub, Vercel\n*   **核心技術概念**: 靜態網站生成 (Static Site Generation, SSG), 無伺服器函數 (Serverless Functions), Git-based CMS (將 GitHub 作為內容後台)\n\n### 待釐清問題列表\n1.  **關於內容編輯**: \"直接在網站上編輯 JSON\" 的具體期望是什麼？考量到預算與維護成本，是否能接受「登入 GitHub 網站來編輯 JSON 檔案，儲存後網站自動更新」的方案？這是在免費方案下最穩定可靠的做法。\n2.  **關於資料結構**: 是否能先提供一份範例 JSON 檔案？這將決定每個折扣項目包含哪些欄位（如：店家名稱、折扣內容、連結、有效期限、分類等）。\n3.  **關於設計稿**: Figma 設計稿是否包含行動版與桌面版的版面？是否有任何動態效果或使用者互動的具體說明？\n4.  **關於未來擴充**: 短期內是否有增加其他頁面（如「關於我們」）或更複雜功能（如使用者提交折扣）的計畫？這會影響初期的技術架構選擇。\n5.  **關於網域**: 網站是否需要綁定自訂網域？還是使用 Vercel 提供的免費子網域即可？\n```"
+    }
+}
